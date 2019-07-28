@@ -3,8 +3,5 @@ image: node:12.6.0
 pipelines:
   default:
     - step:
-        caches:
-          - node
         script:
-          - npm i -D -g mocha
           - npm test
