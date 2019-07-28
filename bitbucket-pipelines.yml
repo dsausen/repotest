@@ -4,5 +4,5 @@ pipelines:
   default:
     - step:
         script:
-          - npm i -g -D mocha
+          - npm i -D -g mocha
           - npm test
