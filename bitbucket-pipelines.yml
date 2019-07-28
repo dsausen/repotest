@@ -6,6 +6,5 @@ pipelines:
         caches:
           - node
         script:
-          - npm install mocha
-          - npm init -y
+          - npm i
           - npm test

@@ -1,0 +1,23 @@
+{
+  "name": "repotest",
+  "version": "1.0.0",
+  "description": "Not an important repository, just testing configurations",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "supertest": "^4.0.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://danzone@bitbucket.org/danzone/repotest.git"
+  },
+  "author": "Danny",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/danzone/repotest#readme"
+}
